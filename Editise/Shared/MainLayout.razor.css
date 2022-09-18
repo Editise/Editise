@@ -21,7 +21,7 @@ main {
 
     .top-row ::deep a, .top-row .btn-link {
         white-space: nowrap;
-        color: #444444;
+        color: #888;
     }
 
     .top-row a:first-child {
