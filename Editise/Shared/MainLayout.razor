@@ -2,18 +2,24 @@
 
 <PageTitle>Editise</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
+<div class="page @PageType">
     <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        <div class="container navbar top-row px-4">
+            <a href="#">
+                Editise
+            </a>
+            <div class="d-flex nav-items-wrapper">
+                <NavMenu />
+            </div>
         </div>
 
-        <article class="content px-4">
+        <article class="container content px-4">
             @Body
         </article>
+        <div class="footer">
+            <Footer></Footer>
+        </div>
     </main>
 </div>
+<Cta></Cta>
+<ClearCache></ClearCache>

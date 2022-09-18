@@ -1,0 +1,11 @@
+﻿@using Editiser.Services
+@inject IContentService contentService
+@inject NavigationManager NavigationManager;
+
+
+@if (System.Diagnostics.Debugger.IsAttached)
+{
+    <button class="clear-button" onclick="@ClearNow">
+        <span>Clear Cache</span>
+    </button>
+}

@@ -13,17 +13,15 @@ main {
 }
 
 .top-row {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
+    border: 1px solid #666666;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
     .top-row ::deep a, .top-row .btn-link {
         white-space: nowrap;
-        margin-left: 1.5rem;
+        color: #444444;
     }
 
     .top-row a:first-child {
@@ -31,11 +29,13 @@ main {
         text-overflow: ellipsis;
     }
 
-@media (max-width: 640.98px) {
-    .top-row:not(.auth) {
-        display: none;
-    }
+.top-row {
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
 
+@media (max-width: 640.98px) {
     .top-row.auth {
         justify-content: space-between;
     }
@@ -57,14 +57,11 @@ main {
         top: 0;
     }
 
-    .top-row {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
     .top-row, article {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+.navbar a{
+    text-decoration:none;
 }

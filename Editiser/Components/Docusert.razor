@@ -1,0 +1,18 @@
+﻿@using Editiser.Services
+@inject IContentService contentService
+@if (!string.IsNullOrEmpty(DocSelect) &&
+    !string.IsNullOrEmpty(DocSelect) &&
+    contentService.Blocks.ContainsKey(DocSelect) &&
+contentService.Blocks[DocSelect].ContainsKey(BlockSelect))
+{
+    @if (Plaintext)
+    {
+        @(StripHTML(contentService.Blocks[DocSelect][BlockSelect])
+    )
+    }
+    else
+    {
+        @((MarkupString)contentService.Blocks[DocSelect][BlockSelect])
+    }
+}
+DOCUSERT COMPONENT

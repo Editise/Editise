@@ -1,0 +1,16 @@
+﻿@*@using adapptTesters.Services
+@inject IContentService contentService
+@if (contentService.Blocks.ContainsKey(DocSelect) &&
+contentService.Blocks[DocSelect].ContainsKey(BlockSelect))
+{
+    @if (Plaintext)
+    {
+        @(StripHTML(contentService.Blocks[DocSelect][BlockSelect])
+    )
+    }
+    else
+    {
+        @((MarkupString)contentService.Blocks[DocSelect][BlockSelect])
+    }
+}
+*@
