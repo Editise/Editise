@@ -15,7 +15,7 @@ Inserting text is done by using the Docusert HTML Component. This references a W
     <p><Docusert DocSelect="Page3.docx" BlockSelect="Block1Text"></Docusert></p>
 </div>
 
-To run the the project simply clone / download and then open in Visual Studio 2022.
+To run the the project simply clone / download and then open in Visual Studio 2022 (Community Edition).
 
 Resource requirements are very light, and this should run on the smallest of serverless instances without any issues. All data is held in memory, making it lightning fast.
 
