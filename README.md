@@ -4,7 +4,7 @@ You can see and example of it in action here
 
 https://adapptesters.com
 
-There the content is powered by Word DOCX files in the docs folder. The server code is .NET 6 cross platform and works on Linux, Windows and Mac
+There the content is powered by Word DOCX files in the docs folder (DOCX files can be created with MS Word or OpenOffice) . The server code is .NET 6 cross platform and works on Linux, Windows and Mac
 
 More doumentation and information will follow as this project evolves
 
