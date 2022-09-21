@@ -21,5 +21,6 @@ Resource requirements are very light, and this should run on the smallest of ser
 
 If you would like to see further development of this tiny CMS then let us know by starring the project.
 
-This project is Open Source under MIT
+This project is currently sponsored by https://adappt.ai and we are actively looking for more sponsors to abe able to add more free features 
 
+This project is Open Source under MIT
