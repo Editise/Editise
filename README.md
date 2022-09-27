@@ -33,8 +33,12 @@ If you would like to see further development of this tiny CMS then let us know b
 
 This project is currently sponsored by https://adappt.ai and we are actively looking for more sponsors to abe able to add more free features 
 
+### History
+
 The video of how this CMS came into being can be seen here
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dHJjIWgdf4E/0.jpg)](https://youtu.be/dHJjIWgdf4E)
+
+### License
 
 This project is Open Source under MIT
