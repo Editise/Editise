@@ -10,10 +10,11 @@ More doumentation and information will follow as this project evolves
 
 Inserting text is done by using the Docusert HTML Component. This references a Word Document and looks for the text in a block with matching H1 (Header 1) Title e.g.
 
-<div class="col-sm-12 col-md-6">
-    <h3><Docusert DocSelect="Page3.docx" BlockSelect="Block1Title"></Docusert></h3>
-    <p><Docusert DocSelect="Page3.docx" BlockSelect="Block1Text"></Docusert></p>
-</div>
+
+    <div class="col-sm-12 col-md-6">
+        <h3><Docusert DocSelect="Page3.docx" BlockSelect="Block1Title"></Docusert></h3>
+        <p><Docusert DocSelect="Page3.docx" BlockSelect="Block1Text"></Docusert></p>
+    </div>
 
 To run the the project simply clone / download and then open in Visual Studio 2022 (Community Edition).
 
