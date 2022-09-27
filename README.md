@@ -1,3 +1,9 @@
+[![GitHub](https://img.shields.io/github/license/editise/editise?color=594ae2&logo=github&style=flat-square)](https://github.com/editise/editise/blob/master/LICENSE.txt)
+[![GitHub Repo stars](https://img.shields.io/github/stars/editise/editise?color=594ae2&style=flat-square&logo=github)](https://github.com/editise/editise/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/editise/editise?color=594ae2&style=flat-square&logo=github)](https://github.com/editise/editise)
+
+### Tiny .NET C# Blazor CMS
+
 This tiny CMS has been created as an easy way to build microsites and brochure websites
 
 You can see and example of it in action here
@@ -8,13 +14,15 @@ There the content is powered by Word DOCX files in the docs folder (DOCX files c
 
 More doumentation and information will follow as this project evolves
 
+###Code Example
 Inserting text is done by using the Docusert HTML Component. This references a Word Document and looks for the text in a block with matching H1 (Header 1) Title e.g.
 
-
-    <div class="col-sm-12 col-md-6">
-        <h3><Docusert DocSelect="Page3.docx" BlockSelect="Block1Title"></Docusert></h3>
-        <p><Docusert DocSelect="Page3.docx" BlockSelect="Block1Text"></Docusert></p>
-    </div>
+```razor
+<div class="col-sm-12 col-md-6">
+     <h3><Docusert DocSelect="Page3.docx" BlockSelect="Block1Title"></Docusert></h3>
+      <p><Docusert DocSelect="Page3.docx" BlockSelect="Block1Text"></Docusert></p>
+</div>
+```
 
 To run the the project simply clone / download and then open in Visual Studio 2022 (Community Edition).
 
