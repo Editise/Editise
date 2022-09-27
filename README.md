@@ -6,7 +6,7 @@
 
 This tiny CMS has been created as an easy way to build microsites and brochure websites
 
-You can see and example of it in action here
+You can see an example of it in action here
 
 https://adapptesters.com
 
