@@ -14,7 +14,8 @@ There the content is powered by Word DOCX files in the docs folder (DOCX files c
 
 More doumentation and information will follow as this project evolves
 
-###Code Example
+### Code Example
+
 Inserting text is done by using the Docusert HTML Component. This references a Word Document and looks for the text in a block with matching H1 (Header 1) Title e.g.
 
 ```razor
