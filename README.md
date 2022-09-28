@@ -38,7 +38,7 @@ This project is currently sponsored by https://adappt.ai and we are actively loo
 The original concept was so simple it was written in a day. The principle is that rather than using a database to provide content, the content comes from sections of a Word document. Each section is defined simply by having a <Header1> title, and the text below it becomes the content which is inserted. 
 The main reason for working this way was that all our webcontent was being written in Word anyway and all corrections were made in Word, so why keep swapping back and forth to a database. Here is the video of how this CMS came into being 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dHJjIWgdf4E/0.jpg)](https://youtu.be/dHJjIWgdf4E)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dHJjIWgdf4E/2.jpg)](https://youtu.be/dHJjIWgdf4E)
 
 ### License
 
